@@ -130,7 +130,7 @@ body {
 .box-save {
   width: 100%;
   aspect-ratio: 500 / 825;
-  background-image: linear-gradient(to top, rgb(255, 255, 255), rgba(255, 255, 255, 0.138), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('./images/couple/A62I2474.webp');
+  background-image: linear-gradient(to top, rgb(255, 255, 255), rgba(255, 255, 255, 0.138), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('https://pub-d341ea7ec201435598469d75d8c4a056.r2.dev/hung-chi/A62I2474.webp');
   background-size: 110%;
   background-repeat: no-repeat;
   background-position: 0% 50%;
@@ -715,7 +715,7 @@ hr {
   flex-direction: column;
   text-align: center;
   justify-content: start;
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.511)), url('./images/couple/A62I5063.webp');
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.511)), url('https://pub-d341ea7ec201435598469d75d8c4a056.r2.dev/hung-chi/A62I5063.webp');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
