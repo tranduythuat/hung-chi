@@ -174,10 +174,10 @@ body {
 
 .box-content .wife,
 .box-content .husband {
-  font-family: var(--font-aston);
-  /* font-family: var(--font-pinyonScript); */
+  /* font-family: var(--font-aston); */
+  font-family: var(--font-pinyonScript);
   font-weight: 400;
-  font-size: 25px;
+  font-size: 40px;
 }
 
 .dot {
@@ -264,9 +264,10 @@ hr {
 }
 
 .lb6 {
-  font-family: var(--font-aston);
+  /* font-family: var(--font-aston); */
+  font-family: var(--font-pinyonScript);
   font-weight: 500;
-  font-size: 25px;
+  font-size: 42px;
 }
 
 .church {
@@ -954,7 +955,6 @@ textarea {
 }
 
 .xacnhan {
-  height: 30px;
   font-size: 15px;
   background: var(--text-color);
   color: #fff;
@@ -962,7 +962,9 @@ textarea {
   border-radius: 20px;
   border: 1px solid var(--text-color);
   cursor: pointer;
-  width: 150px;
+  max-width: 150px;
+  width: 100%;
+  aspect-ratio: 150 / 30;
   z-index: 2;
 }
 

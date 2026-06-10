@@ -30,7 +30,7 @@
 
     .box-content .wife,
     .box-content .husband {
-        font-size: calc((25 / 500) * 100vw);
+        font-size: calc((40 / 500) * 100vw);
     }
 
     .lb55, .lb-storyy {
@@ -47,7 +47,7 @@
     }
     
     .lb6 {
-        font-size: calc((25 / 500) * 100vw);
+        font-size: calc((42 / 500) * 100vw);
     }
 
     .inv {
@@ -102,4 +102,9 @@
     .boxx-imgend img {
         max-width: calc((160 / 500) * 100vw);
     }
+
+    .xacnhan {
+        font-size: calc((15 / 500) * 100vw);
+        max-width: calc((150 / 500) * 100vw);
+      }
 }
