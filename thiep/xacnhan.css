@@ -74,6 +74,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'GreatVibes';
+  src: url('../thiep/fonts/GreatVibes-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
   --primary-color: rgb(121, 45, 38);
   --empty-box: rgb(76, 53, 44);
@@ -86,6 +93,7 @@
   --font-mtd: 'MTD Doppelganger Display';
   --font-aston: 'Aston Script';
   --font-pinyonScript: 'PinyonScript';
+  --font-GreatVibes: 'GreatVibes';
 }
 
 [data-aos] {
@@ -130,7 +138,7 @@ body {
 .box-save {
   width: 100%;
   aspect-ratio: 500 / 825;
-  background-image: linear-gradient(to top, rgb(255, 255, 255), rgba(255, 255, 255, 0.138), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('https://pub-d341ea7ec201435598469d75d8c4a056.r2.dev/hung-chi/A62I2474.webp');
+  background-image: linear-gradient(to top, rgb(255, 255, 255), rgba(255, 255, 255, 0.138), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('https://pub-d341ea7ec201435598469d75d8c4a056.r2.dev/hung-chi/A62I2559.webp');
   background-size: 110%;
   background-repeat: no-repeat;
   background-position: 0% 50%;
@@ -175,8 +183,8 @@ body {
 .box-content .wife,
 .box-content .husband {
   /* font-family: var(--font-aston); */
-  font-family: var(--font-pinyonScript);
-  font-weight: 400;
+  font-family: var(--font-GreatVibes);
+  font-weight: 300;
   font-size: 40px;
 }
 
@@ -229,8 +237,8 @@ hr {
 
 
 .time-date {
-  font-family: var(--font-aston);
-  font-size: 20px;
+  font-family: var(--font-GreatVibes);
+  font-size: 28px;
 }
 
 .box-icon {
@@ -323,7 +331,7 @@ hr {
   font-size: 12px;
 }
 
-.album {
+.share-album {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -495,7 +503,7 @@ hr {
   aspect-ratio: 500/800;
   margin: 0 auto;
   padding-bottom: 10%;
-  background-color: var(--empty-box);  
+  /* background-color: var(--empty-box);   */
 }
 .album .content .swiper img {
   width: 100%;
@@ -583,8 +591,8 @@ hr {
   position: absolute;
   max-width: 265px;
   width: 100%;
-  aspect-ratio: 270 / 420;
-  background-color: var(--text-color);
+  aspect-ratio: 270 / 412;
+  /* background-color: var(--text-color); */
   overflow: hidden;
 }
 

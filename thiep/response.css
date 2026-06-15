@@ -24,7 +24,11 @@
         font-size: calc((15 / 500) * 100vw);
     }
 
-    .time-date, .til2{
+    .time-date {
+        font-size: calc((28 / 500) * 100vw);
+    }
+
+    .til2{
         font-size: calc((20 / 500) * 100vw);
     }
 
