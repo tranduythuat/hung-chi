@@ -1019,12 +1019,18 @@ textarea {
   flex-direction: column;
   text-align: center;
   align-items: center;
-  aspect-ratio: 500 / 300;
+  /* aspect-ratio: 500 / 300; */
   width: 100%;
   line-height: 25px;
   color: var(--text-color);
-  background-color: var(--empty-box);
+  /* background-color: var(--empty-box); */
   font-weight: 300;
+  margin-top: 10%;
+}
+
+.box-end img {
+  width: 100%;
+  height: auto;
 }
 
 .lb-end1 {
